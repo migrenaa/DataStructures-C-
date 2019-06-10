@@ -17,12 +17,12 @@ private:
 		capacity *= 2;
 		int* newElements = new int[capacity];
 		int j = 0;
-		for (int i = front; i < oldCapacity; i++) {
+		for (int i = front; i <= back; i++) {
 			newElements[j] = elements[i];
 			j++;
 		}
+		back = j - 1;
 		front = 0;
-		back = oldCapacity;
 		delete[] elements;
 		elements = newElements;
 	}
@@ -33,7 +33,7 @@ public:
 	{
 		front = 0;
 		back = -1;
-		capacity = 2;
+		capacity = 10;
 		elements = new int[capacity];
 	}
 
@@ -88,12 +88,6 @@ int main() {
 	cout << "Should be 2: " << queue.dequeue() << endl;
 	cout << "Should be 3: " << queue.head() << endl;
 
-	queue.enquque(2);
-	queue.enquque(2);
-	queue.enquque(2);
-
-	cout << "Should be 2: " << queue.dequeue() << endl;
-	cout << "Should be 2: " << queue.dequeue() << endl;
 	int a;
 	cin >> a;
 }
