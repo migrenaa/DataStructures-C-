@@ -69,25 +69,25 @@ public:
 	}
 };
 
-
-int main() {
-
-	Queue queue;
-	cout << queue.empty() << endl;
-	cout << queue.head() << endl;
-	cout << queue.dequeue() << endl;
-
-	queue.enquque(1);
-
-	cout << "Should be 0: " << queue.empty() << endl;
-	cout << "Should be 1: " << queue.head() << endl;
-	cout << "Should be 1: " << queue.dequeue() << endl;
-
-	queue.enquque(2);
-	queue.enquque(3);
-	cout << "Should be 2: " << queue.dequeue() << endl;
-	cout << "Should be 3: " << queue.head() << endl;
-
-	int a;
-	cin >> a;
-}
+//
+//int main() {
+//
+//	Queue queue;
+//	cout << queue.empty() << endl;
+//	cout << queue.head() << endl;
+//	cout << queue.dequeue() << endl;
+//
+//	queue.enquque(1);
+//
+//	cout << "Should be 0: " << queue.empty() << endl;
+//	cout << "Should be 1: " << queue.head() << endl;
+//	cout << "Should be 1: " << queue.dequeue() << endl;
+//
+//	queue.enquque(2);
+//	queue.enquque(3);
+//	cout << "Should be 2: " << queue.dequeue() << endl;
+//	cout << "Should be 3: " << queue.head() << endl;
+//
+//	int a;
+//	cin >> a;
+//}

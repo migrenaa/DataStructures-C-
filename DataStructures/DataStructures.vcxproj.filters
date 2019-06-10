@@ -4,6 +4,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="queue.cpp" />
     <ClCompile Include="stack.cpp" />
+    <ClCompile Include="linkedList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
