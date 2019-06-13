@@ -105,26 +105,26 @@ public:
 	}
 };
 
-
-int main() {
-
-	LinkedList list(1);
-	cout << "Should be 0: " << list.empty() << endl;
-	cout << "Should be 1: " << list.get(0) << endl;
-	cout << list.get(1) << endl;
-	cout << "Should be 1: " << list.remove(0) << endl;
-
-	list.add(0);
-	list.add(1);
-	list.add(2);
-	cout << "Should be 1: " << list.remove(1) << endl;
-	cout << "Should be 2: " << list.get(1) << endl;
-
-	cout << "Should be 0: " << list.remove(0) << endl;
-	cout << "Should be 2: " << list.remove(0) << endl;
-
-	cout << "Should be 1: " << list.empty() << endl;
-
-	int a;
-	cin >> a;
-}
+//
+//int main() {
+//
+//	LinkedList list(1);
+//	cout << "Should be 0: " << list.empty() << endl;
+//	cout << "Should be 1: " << list.get(0) << endl;
+//	cout << list.get(1) << endl;
+//	cout << "Should be 1: " << list.remove(0) << endl;
+//
+//	list.add(0);
+//	list.add(1);
+//	list.add(2);
+//	cout << "Should be 1: " << list.remove(1) << endl;
+//	cout << "Should be 2: " << list.get(1) << endl;
+//
+//	cout << "Should be 0: " << list.remove(0) << endl;
+//	cout << "Should be 2: " << list.remove(0) << endl;
+//
+//	cout << "Should be 1: " << list.empty() << endl;
+//
+//	int a;
+//	cin >> a;
+//}

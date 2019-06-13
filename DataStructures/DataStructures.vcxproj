@@ -116,6 +116,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="binary-tree.cpp" />
+    <ClCompile Include="binary-search-tree.cpp" />
     <ClCompile Include="linkedList.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="queue.cpp" />

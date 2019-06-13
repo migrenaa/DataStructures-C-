@@ -6,6 +6,7 @@
     <ClCompile Include="stack.cpp" />
     <ClCompile Include="linkedList.cpp" />
     <ClCompile Include="binary-tree.cpp" />
+    <ClCompile Include="binary-search-tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
